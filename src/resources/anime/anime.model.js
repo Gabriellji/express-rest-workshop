@@ -5,12 +5,12 @@ const animeSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    type: {
+    type_of_anime: {
         type: String,
         required: true
     }
 });
 
-const Anime = mongoose.model('Anima', animeSchema);
+const Anime = mongoose.model('Anime', animeSchema);
 
 module.exports = Anime;
